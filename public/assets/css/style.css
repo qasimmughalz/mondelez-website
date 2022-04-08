@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=Heebo:wght@400;500;600&family=Hind:wght@300;400;500&family=IBM+Plex+Sans:wght@300&family=M+PLUS+2:wght@200;300;400&family=Merriweather:ital,wght@0,300;0,400;1,300&family=Oswald:wght@500;600;700&family=PT+Serif:wght@400;700&family=Playfair+Display:wght@800;900&family=Roboto+Condensed:wght@300;700&display=swap');
+/* -------------------------------heading------------------------------  */
+.clr-purple
+{
+  color: #57276d;
+}
+.bg-purple
+{
+  background-color: #57276d;
+}
+.head-design
+{
+  background-color: #F4DB9C;
+  font-weight: 700;
+  text-align: center;
+  padding: 2px;
+  letter-spacing: 2px;
+  width: 100% !important;
+  font-size: 19px;
+  margin: 0px;
+}
+.head-design a
+{
+  color: #57276d !important;
+}
+
+/* ============== GENERAL ========= */
+.mycontainer{
+  width: 100%;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+.py-40
+{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+
+
+
+/*---------------------------------- upward navbar --------------------------- */
+.navbar-text
+{
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #000!important;
+}
+.scnd-header li
+{
+  list-style: none;
+  display: inline-block;
+}
+.scnd-dropdown { 
+  padding: 5px 25px 2px 2px;
+  border: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000 !important;
+}
+.scnd-dropdown:hover{
+  text-decoration: 1px underline solid #000 !important;
+  text-underline-offset: 30%;
+}
+.dropmenu a
+{
+font-size:14px ;
+font-weight: bold;
+font-family: 'Roboto Condensed', sans-serif!important;
+letter-spacing: 1px;
+
+}
+.dropmenu a:hover
+{
+  background-color: #F4DB9C ;
+}
+.f-25
+{
+  font-size: 25px;
+}
+.f-18
+{
+  font-size: 18px;
+}
+.icon
+{
+  position: absolute;
+  right: 15px;
+  color: rgb(212, 125, 25);
+}
+  /*------------------------------ navbar------------------------------  */
+.nav-logo
+{
+  height: 80px;
+  width: auto;
+  object-fit: cover;
+}
+.nav-sty
+{
+/* letter-spacing: 1px; */
+font-family: 'Oswald', sans-serif!important;
+font-family: 'Roboto Condensed', sans-serif!important;
+color: #fff !important;
+font-size: 27px;
+font-weight: 600;
+padding: 40px 0;
+text-transform: uppercase;
+margin-top: 8px !important;
+margin-left: 10px;
+margin-right: 10px;
+}
+.nav-sty:hover
+{
+  text-decoration: 3px underline solid rgb(212, 125, 25);
+  text-underline-offset: 20%;
+  transition: 0.4s;
+}
+.bg-navbar,footer
+{
+  background-image: url('../img/nav-bg.png');
+  background-size: cover ;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.nav-dropdown{
+  background-color: #4f2170;
+}
+
+.dropdown-menu{
+  top: 93%;
+}
+
+  .position
+  {
+    position: relative;
+  }
+ .line
+ {
+   position: absolute;
+   margin-left: auto;
+   margin-right: auto;
+   left: 0;
+   right: 0;
+   height: 100%;
+   background-color: rgb(201, 201, 201);
+   width: 1px;
+   opacity: 0.5;
+   margin: 0px;
+ }
+ 
+.list
+{
+  color: #fff;
+}
+ .drpdown-sty
+ {
+  font-family: 'Oswald', sans-serif!important;
+  font-family: 'Roboto Condensed', sans-serif!important;
+  letter-spacing: 1px;
+   text-align: left;
+   color: #fff;
+   font-size: 16px;
+ }
+ .drpdown-sty:hover
+ {
+  background-color: transparent !important;
+  color: rgb(212, 125, 25);
+  text-decoration: 1px underline solid rgb(212, 125, 25);
+ }
+
+  /*------------------------------ navbar end------------------------------  */
+
+  /*------------------------------ carousal---------------------------------  */
+  .heading
+  {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Oswald', sans-serif!important;
+    font-family: 'Roboto Condensed', sans-serif!important;
+    color: #fff !important;
+    font-size: 28px;
+    font-weight: 800;
+    width: auto;
+  }
+  .py-100
+  {
+padding-top: 120px;
+padding-bottom: 100px;
+  }
+  .f-19
+  {
+    font-size: 19px;
+  }
+.f-80
+{
+  font-size: 80px;
+  line-height: 79px;
+  font-weight: bolder;
+}
+.f-40
+{
+  font-size: 35px;
+}
+.carousal-btn{
+  border: 3px solid #fff;
+  border-radius: 50px;
+  padding: 15px 45px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.carousal-btn:hover
+{
+  background-color: #fff;
+  color: #000 !important;
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+/*--------------------------------- slider designing-------------------------------  */
+.bg-grey
+{
+  background-color: #FAFAFA;
+  padding: 30px 0;
+}
+.box
+{
+  height: 230px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.box:hover
+{
+  background-color: #fff;
+  border-left: 5px solid #4c226e;
+  border-right: 5px solid #4c226e;
+}
+.img-style
+{
+  height: auto;
+width: 120px;
+}
+
+/*-------------------------- after Slider-------------------  */
+.simple-img
+{
+  padding: 50px;
+  height: 520px;
+  width: 100%;
+  object-fit: cover;
+}
+.f-90
+{
+font-size: 55px;
+font-weight: 300;
+padding: 10px 30px;
+line-height: 75px;
+color: #287819;
+width: 80% !important;
+}
+.para
+{
+font-size: 26px;
+font-weight: 400;
+padding: 10px 0;
+padding-left: 30px!important;
+padding-right: 0px!important;
+line-height: 40px;
+letter-spacing: 1px;
+margin-top: 20px;
+}
+.simple-btn{
+  border: 2px solid #4c226e;
+  border-radius: 50px;
+  padding: 15px 45px;
+  color: #4c226e;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  margin:35px 20px;
+}
+.simple-btn:hover
+{
+  background-color: #4c226e;
+  color: #fff !important;
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+/*-------------------------- next section------------------------------  */
+.f-13
+{
+  font-size: 14px;
+}
+.f-20
+{
+  font-size: 20px;
+}
+.pur-heading
+{
+  color: #4c226e;
+  font-size: 55px;
+font-weight: 400;
+font-family: 'Oswald', sans-serif!important;
+font-family: 'Roboto Condensed', sans-serif!important;
+font-weight: 700;
+text-transform: uppercase;
+margin-bottom: 70px;
+}
+.link-sty
+{
+  font-weight: 400;
+  padding: 10px 0;
+  padding-left: 20px!important;
+  padding-right: 20px!important;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.hov-clr
+{
+  color: #4c226e;
+}
+.hov-clr:hover
+{
+  color: rgb(190, 0, 0);
+}
+.news-btn{
+  border-radius: 50px;
+  padding: 20px 50px;
+  background-color: #4c226e;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 90px 20px;
+}
+.news-btn:hover
+{
+  background-color: #643e83;
+  color: #fff !important;
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.4s;
+}
+.divider
+{
+  border-right: 1px solid rgb(158, 157, 158);
+}
+
+/*---------------------------- footer --------------------------------- */
+footer h4
+{
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-family: 'Oswald', sans-serif!important;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  height: 90px;
+  
+
+}
+.footer-list
+{
+  padding-left: 0;
+  list-style: none;
+}
+.footer-list li a
+{
+list-style: none;
+display: block;
+color: #fff;
+font-size: 16px;
+padding: 2px 0px;
+margin: 0 0px;
+letter-spacing: 1px;
+}
+.footer-list li a:hover
+{
+  color:rgb(212, 125, 25) ;
+}
+
+/*----------social media icons styling ------- */
+.list-style li{
+  text-align: left;
+  list-style: none;
+  display: inline-block;
+  padding: 10px 5px;
+  align-items: center;
+  justify-content: center;
+}
+.icon-color
+{
+  background-color: #fff;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  color: #4c226e;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.icon-color:hover
+{
+  color: rgb(212, 125, 25);
+}
+.text-decore
+{
+  text-decoration: none !important;
+}
+
+
+/*============================================= mobile view=================================================  */
+@media (max-width:1190px) {
+ 
+  .py-40
+{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+  .nav-logo
+{
+  height: 50px;
+  width: auto;
+  object-fit: cover;
+}
+#up-nav
+{
+  display: none;
+}
+.navbar-toggler{
+border: 0px solid transparent;
+}
+.navbar-toggler:focus
+{
+ outline: none;
+}
+/* header in mobile */
+.nav-sty
+{
+color: #fff !important;
+font-size: 17px;
+font-weight: 400;
+letter-spacing: 1px;
+font-weight: 700;
+padding: 10px 0 !important;
+}
+
+.nav-sty:hover
+{
+  text-decoration: 1px underline solid rgb(212, 125, 25);
+}
+.drpdown-sty
+{
+  text-align: left;
+  font-size: 16px;
+  padding: 5px;
+  color: #fff;
+}
+
+
+}
+@media(max-width:760px){
+
+  .f-20
+  {
+    font-size: 2rem !important;
+  }
+
+  
+  .head-design
+{
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.f-90
+{
+font-size: 30px;
+font-weight: 400;
+padding: 10px 50px;
+line-height: 35px;
+
+}
+.para
+{
+font-size: 2rem;
+font-weight: 400;
+padding: 10px 0;
+padding-left: 50px!important;
+padding-right: 0px!important;
+line-height: 17px;
+}
+.simple-btn{
+ 
+  padding: 15px 45px;
+  margin: 20px 50px;
+  width: 70%;
+}
+.simple-img
+{
+  padding: 50px;
+  height: 320px;
+  width: 100%;
+  object-fit: cover;
+}
+.small-word
+{
+  margin: 0px 30px;
+  font-size: 10px;
+}
+.footer-heading
+{
+text-align: center !important;
+font-size: 12px;
+font-weight: 500;
+margin-bottom: 10px;
+height: 40px;
+padding-top: 30px;
+}
+
+.footer-list li a
+{
+list-style: none;
+display: block;
+color: #fff;
+font-size: 11px;
+padding: 0px 0px;
+}
+.list-style {
+  text-align: center;
+}
+
+.icon-color
+{
+  background-color: #fff;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  color: #4c226e;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.icon-color:hover
+{
+  color: rgb(212, 125, 25);
+}
+.pur-heading
+{
+  color: #4c226e;
+  font-size: 35px;
+font-weight: 400;
+font-family: 'Oswald', sans-serif!important;
+font-family: 'Roboto Condensed', sans-serif!important;
+font-weight: 700;
+text-transform: uppercase;
+margin-bottom: 70px;
+}
+
+}
