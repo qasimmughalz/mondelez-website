@@ -599,6 +599,11 @@ margin-bottom: 70px;
   display: flex;
   border: 2px solid #4c226e;
 }
+.p-50p
+{
+  padding-top: 380px;
+  padding-bottom: 50px;
+}
 .h-50p
 {
   height: 550px;
@@ -648,4 +653,80 @@ text-transform: uppercase;
 .ht-25
 {
   height: 250px;
+}
+.link-press
+{
+  font-weight: 400;
+  padding-left: 20px!important;
+  padding-right: 20px!important;
+  line-height: 0px;
+  letter-spacing: 1px;
+}
+.career-img
+{
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+.career-btn{
+  border-radius: 50px;
+  padding: 15px 50px;
+  background-color: #bb5d10;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  width: 100%;
+}
+.career-btn:hover
+{
+  background-color: #e0883f;
+  color: #fff !important;
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.4s;
+}
+.career-btn2{
+  border-radius: 50px;
+  padding: 15px 50px;
+  background-color: #0b7c23;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  width: 100%;
+}
+.career-btn2:hover
+{
+  background-color: #23d349;
+  color: #fff !important;
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.4s;
+}
+.search-btn{
+  border-radius: 50px;
+  padding: 15px 50px;
+  background-color: #e06f12;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid #fff;
+}
+.search-btn:hover
+{
+  background-color: #fff;
+  color: #000 !important;
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.m-10p
+{
+  margin-top: 150px!important;
 }
